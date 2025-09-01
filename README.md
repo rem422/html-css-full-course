@@ -39,7 +39,7 @@ HTML-CSS-Full-Course/
 ## 🚀 Getting Started  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/html-css-full-course.git
+   git clone https://github.com/rem422/html-css-full-course.git
 
 Open the project folder.
 
