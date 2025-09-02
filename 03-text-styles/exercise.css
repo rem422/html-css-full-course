@@ -1,0 +1,58 @@
+    .tahoma {
+        font-family: Tahoma;
+        font-weight: bolder;
+    }
+
+    .Arial-title  {
+        font-family: Arial;
+        font-weight: bolder;
+    }
+
+    .Arial-subtitle {
+        font-family: Arial;
+        color: red;
+    }
+
+    .Verdana-title, 
+    .Verdana-subtitle,
+    .Verdana-desc,
+    .Verdana-button {
+        font-family: Verdana;
+    }
+
+    .Verdana-title {
+        font-weight: bold;
+        font-size: 38px;
+    }
+
+    .Verdana-subtitle {
+        color: gray;
+    }
+
+    .Verdana-desc {
+        width: 300px;
+    }
+
+    .Verdana-button {
+        background-color: rgb(6, 198, 6);
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .Arial-title2,
+    .Arial-subtitle2,
+    .Arial-link2 {
+        font-family: Arial;
+    }
+
+    .Arial-title2 {
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    .Arial-link2 {
+        color: blue;
+    }
