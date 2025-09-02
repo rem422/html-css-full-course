@@ -21,3 +21,8 @@ img {
     object-position: center;
 }
 
+.input1 {
+    
+    border: 2px solid gray;
+    border-radius: 5px;
+}
