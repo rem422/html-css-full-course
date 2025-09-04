@@ -10,14 +10,28 @@ p {
 }
 
 .header {
+    height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
-    padding: 25px 20px;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 150px;
+}
+
+.middle-section {
+    background-color: lightpink;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+
+.right-section {
+    background-color: lightblue;
+    width: 200px;
 }
 
 .video-grid {
@@ -31,8 +45,8 @@ p {
     margin-bottom: 12px;
 }
 
-.search-bar {
-}
+/* .search-bar {
+} */
 
 .video-title {
     margin-top: 0;
