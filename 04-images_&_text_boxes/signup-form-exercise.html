@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up & Uber Request</title>
+</head>
+<style>
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .sign-up {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 500px;
+        background-color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .sign-up input {
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+        width: 100%;
+        max-width: fit-content;
+    }
+
+    .sign-up .username {
+        display: flex;
+        gap: 5px;
+    }
+
+    .sign-up .email {
+        width: 100%;
+        max-width: 467px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .sign-up button {
+        border: none;
+        padding: 12px 20px;
+        background-color: rgb(50, 107, 241);
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .uber-request-form {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        width: 500px;
+        background-color: white;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .uber-request-form p {
+        font-size: 34px;
+        padding: 0;
+    }
+
+    .uber-request-form input {
+        border: none;
+        outline: none;
+        background-color: rgba(234, 234, 234, 0.966);
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 467px;
+    }
+
+    .btns {
+        margin-top: 20px;
+    }
+
+    .btns button {
+        border: none;
+        padding: 12px 26px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btns .request {
+        background-color: black;
+        color: white;
+    }
+
+
+</style>
+<body>
+    <form class="sign-up">
+        <div class="username">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+        <input class="email" type="email" placeholder="Email">
+        <button>Sign Up</button>
+    </form>
+
+    <form class="uber-request-form">
+        <p>Request a ride now</p>
+        <input type="text" placeholder="Enter pickup location">
+        <input type="text" placeholder="Enter destination">
+        <div class="btns">
+            <button class="request">Request Now</button>
+            <button class="schedule">Schedule for later</button>
+        </div>
+        
+    </form>
+</body>
+</html>

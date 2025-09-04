@@ -1,5 +1,6 @@
 .thumbnail {
     width: 300px;
+    display: block;
 }
 
 .search-bar {
@@ -10,8 +11,3 @@
     width: 300px;
 }
 
-.video-author,
-.video-stats {
-    display: inline-block;
-
-}
