@@ -12,29 +12,13 @@ In this course, you will learn how to:
 - Master **Flexbox** and **CSS Grid** for layouts  
 - Create **responsive websites** for all devices  
 - Add **typography, colors, and animations**  
-- Build real-world projects like landing pages & portfolios  
+- Build youtube homepage 
 
 ---
 
 ## 🛠️ Technologies Used  
 - **HTML5**  
 - **CSS3**  
-
----
-
-## 📂 Project Structure  
-HTML-CSS-Full-Course/
-│── 01-Introduction/
-│── 02-HTML-Basics/
-│── 03-CSS-Basics/
-│── 04-Flexbox/
-│── 05-CSS-Grid/
-│── 06-Responsive-Design/
-│── 07-Projects/
-│── README.md
-
-
----
 
 ## 🚀 Getting Started  
 1. Clone this repository:  
