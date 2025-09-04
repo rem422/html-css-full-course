@@ -22,7 +22,111 @@ img {
 }
 
 .input1 {
-    
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: none;
 }
+
+.input2 {
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 50%;
+    font-size: 18px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.linkedin {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    margin: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkedin label {
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.linkedin input {
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.linkedin p {
+    font-size: 14px;
+    color: gray;
+}
+
+.linkedin button {
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(50, 91, 214);
+    color: white;
+    padding: 15px 124px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: opacity .15s ease;
+}
+
+.linkedin button:hover {
+    opacity: .9;
+}
+
+.linkedin button:active {
+    opacity: .7;
+}
+
+.tweeter {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.tweeter img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+}
+
+.tweeter input {
+    border: none;
+    font-size: 18px;
+    color: gray;
+    padding: 10px 20px;
+    outline: none;
+    margin-right: 10px;
+}
+.tweeter button {
+    border: none;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity .15s ease;
+}
+
+.tweeter button:hover {
+    opacity: .9;
+}
+
+.tweeter button:active {
+    opacity: .7;
+}
+
