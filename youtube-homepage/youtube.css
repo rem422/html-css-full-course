@@ -14,11 +14,17 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left-section {
     background-color: lightblue;
     width: 150px;
+}
+
+.hamburger-menu,
+.youtube-logo{
+    height: 20px;
 }
 
 .middle-section {
