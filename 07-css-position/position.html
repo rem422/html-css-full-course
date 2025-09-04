@@ -15,7 +15,8 @@
         right: 0;
         left: 0;
         height: 50px;
-        width: 100%
+        width: 100%;
+        z-index: 999;
     ">header</div>
 
     <div style="
@@ -26,7 +27,21 @@
         bottom: 0;
         top: 50px;
         width: 72px;
-    ">Sidebar</div>
+    ">Sidebar
+        <div style="
+        position: absolute;
+        background-color: red;
+        top: 0;
+        right: 0;
+    ">X</div>
+    </div>
+
+    <div style="
+        position: absolute;
+        background-color: red;
+        top: 60px;
+        right: 10px;
+    ">Absolute</div>
 
     <div style="
         background-color: lightblue;
