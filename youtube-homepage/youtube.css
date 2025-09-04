@@ -1,6 +1,23 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 p {
     font-family: "Roboto", Arial;
     margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+    padding: 25px 20px;
 }
 
 .video-grid {
@@ -15,7 +32,6 @@ p {
 }
 
 .search-bar {
-    display: block;
 }
 
 .video-title {
