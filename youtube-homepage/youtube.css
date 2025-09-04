@@ -14,7 +14,19 @@
     display: block;
 }
 
-.video-title {
-    width: 300px;
+.channel-picture,
+.video-info {
+    display: inline-block;
 }
 
+.channel-picture {
+    width: 50px;
+}
+
+.channel-picture img {
+    width: 50px;
+}
+
+.video-info {
+    width: 200px;
+}
