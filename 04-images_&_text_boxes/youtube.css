@@ -9,3 +9,9 @@
 .video-title {
     width: 300px;
 }
+
+.video-author,
+.video-stats {
+    display: inline-block;
+
+}
