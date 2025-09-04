@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./youtube.css">
     <title>Youtube</title>
 </head>
 <body>
     <input class="search-bar" type="text" placeholder="Search...">
     <div class="video-preview">
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" alt="thubnail">
         </div>
         <div>
@@ -25,19 +28,22 @@
             </div>
         </div>
     </div>
-    
     <div class="video-preview">
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" alt="thubnail">
         </div>
         <div>
-            <p class="video-title">
-                Try Not To Laugh Challenge #9
-            </p>
-            <p class="video-author">Markiplier</p>
-            <p class="video-stats">19M views &#183; 4 years ago</p>
+            <div class="channel-picture">
+                <img class="video-profile" src="./channel_img/channel-2.jpeg" alt="user">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">Markiplier</p>
+                <p class="video-stats">19M views &#183; 4 years ago</p>  
+            </div>
         </div>
-        
     </div>
 </body>
 </html>
