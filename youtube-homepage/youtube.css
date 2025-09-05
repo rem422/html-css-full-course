@@ -107,6 +107,21 @@ p {
     height: 24px;
 }
 
+.notification-btn {
+    position: relative;
+}
+
+.notification_budge {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(187, 8, 8);
+    color: white;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
 .current-user-img {
     height: 32px;
     border-radius: 16px;
@@ -129,14 +144,25 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+    cursor: pointer;
 }
 
 .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
 }
 
-/* .search-bar {
-} */
+.video-time {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
 
 .video-title {
     margin-top: 0;
